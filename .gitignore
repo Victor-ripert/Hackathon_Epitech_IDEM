@@ -1,0 +1,14 @@
+@"
+Binaries/
+Saved/
+Intermediate/
+.vs/
+.vscode/
+.idea/
+*.pid.db
+*.sln.dot
+*.suo
+*.user
+*.UpRoaming
+DerivedDataCache/
+"@ | Out-File -FilePath .gitignore -Encoding UTF8
