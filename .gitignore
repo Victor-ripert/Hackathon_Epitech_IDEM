@@ -1,14 +1,24 @@
-@"
+# Unreal Engine
 Binaries/
 Saved/
 Intermediate/
+DerivedDataCache/
+
+# IDE
 .vs/
 .vscode/
 .idea/
-*.pid.db
-*.sln.dot
+*.sln
 *.suo
 *.user
-*.UpRoaming
-DerivedDataCache/
-"@ | Out-File -FilePath .gitignore -Encoding UTF8
+*.pid.db
+*.pidb
+*.opensdf
+*.sdf
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Packaging
+Build/
